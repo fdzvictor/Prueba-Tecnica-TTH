@@ -22,7 +22,7 @@ MODELS = ["openai/gpt-4o",
           "openai/gpt-4o-mini",]
 
 st.set_page_config(
-    page_title = "RAG coches",
+    page_title = "Multi-purpose-RAG",
     page_icon = "🤖",
     layout="centered",
     initial_sidebar_state="expanded"
@@ -30,7 +30,7 @@ st.set_page_config(
 
 # HEADER
 
-st.html("""<h2 style="text-align: center;">📚🔍 <i> ¿Te gusta conducir? </i> 🤖💬</h2>""")
+st.html("""<h2 style="text-align: center;">📚🔍 <i> ¿What do you want to RAG today? </i> 🤖💬</h2>""")
 
 # --- Initial Setup ---
 if "session_id" not in st.session_state:
